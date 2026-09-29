@@ -1,0 +1,77 @@
+{
+  "capture_id": "capture_01",
+  "tier": "lidar",
+  "processing_status": "SUCCESS",
+  "metrics": {
+    "total_images_found": 5251,
+    "images_covered_successfully": 5251,
+    "coverage_percentage": "100.0%",
+    "total_3d_points_extracted": 231691461
+  },
+  "stitched_plan": {
+    "total_floor_area_sqm": 55.34,
+    "area_confidence_interval": [
+      54.23,
+      56.45
+    ],
+    "adjacency_graph": []
+  },
+  "rooms": [
+    {
+      "room_id": "room_01",
+      "label": "Scanned Area",
+      "ceiling_height_m": 2.75,
+      "height_confidence_interval": [
+        2.74,
+        2.76
+      ],
+      "floor_area_sqm": 55.34,
+      "walls": [
+        {
+          "id": "w1",
+          "length_m": 8.51,
+          "ci_95": [
+            8.49,
+            8.53
+          ]
+        },
+        {
+          "id": "w2",
+          "length_m": 8.67,
+          "ci_95": [
+            8.65,
+            8.69
+          ]
+        },
+        {
+          "id": "w3",
+          "length_m": 8.51,
+          "ci_95": [
+            8.49,
+            8.53
+          ]
+        },
+        {
+          "id": "w4",
+          "length_m": 8.67,
+          "ci_95": [
+            8.65,
+            8.69
+          ]
+        }
+      ],
+      "openings": [
+        {
+          "id": "door_01",
+          "type": "door",
+          "width_m": 0.88,
+          "ci_95": [
+            0.87,
+            0.89
+          ],
+          "wall_id": "w1"
+        }
+      ]
+    }
+  ]
+}

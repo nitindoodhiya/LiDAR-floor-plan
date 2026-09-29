@@ -2,8 +2,12 @@
   "capture_id": "capture_01",
   "tier": "lidar",
   "processing_status": "SUCCESS",
-  "frames_processed": 1715,
-  "total_3d_points_extracted": 79077975,
+  "metrics": {
+    "total_images_found": 1715,
+    "images_covered_successfully": 1715,
+    "coverage_percentage": "100.0%",
+    "total_3d_points_extracted": 79077975
+  },
   "stitched_plan": {
     "total_floor_area_sqm": 12.98,
     "area_confidence_interval": [
