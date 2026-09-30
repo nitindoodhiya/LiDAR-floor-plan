@@ -172,4 +172,3 @@ If you encounter system termination (`Killed`) on lower-RAM hardware:
 ## Sample Results
 
 Sample results are stored in the main faolder as result_*.json
-```
