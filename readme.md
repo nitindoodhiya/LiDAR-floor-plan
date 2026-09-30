@@ -20,7 +20,7 @@ A high-performance Python processing pipeline that ingests raw synchronized came
 Organize your input capture directory inside `data/capture_01/` according to the structure below:
 
 ```text
-my_floorplan_project/
+LiDAR_floor-plan/
 ├── data/
 │   └── capture_01/                 # Input dataset folder
 │       ├── camera_matrix.csv       # Intrinsic parameters (fx, fy, cx, cy)
